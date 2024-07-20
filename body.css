@@ -1,0 +1,109 @@
+body{
+background: green;
+color: white;
+}
+
+#quote{
+background: blue;
+color: white;
+border: 10px ridge red;
+border-radius: 20px;
+margin: 10px, 5px;
+word-spacing: 5px;
+text-align: justify;
+}
+
+#author{
+background: black;
+color: blue;
+border: 3px solid red;
+border-radius: 10px;
+}
+
+h2{
+text-align: center;
+font-size: 150%;
+}
+
+img{
+float: 50%;
+}
+
+ol{
+overflow: scroll;
+}
+
+h1{
+text-align: center;
+color: black;
+background: blue;
+border: 10px ridge red;
+font-size: 96%;
+}
+
+h3{
+text-align: center;
+}
+
+div{
+background: yellow;
+color: purple;
+border: 10px ridge purple;
+border-radius: 10px;
+text-transform: uppercase;
+font-size: 150%;
+overflow: scroll;
+}
+
+p:first-line{
+text-transform: uppercase;
+background: blue;
+}
+
+p{
+color: violet;
+background: gold;
+text-align: justify;
+}
+
+#note{
+text-align: center;
+margin: 50px;
+}
+
+a:hover{
+cursor: pointer;
+background: black;
+}
+
+#quote:hover{
+background: black;
+cursor: pointer;
+color: red;
+border: 10px ridge blue;
+}
+
+#div3{
+border: 10px ridge black;
+background: red;
+width: 200px;
+height: 200px;
+position: relative;
+animation-name: anime;
+animation-duration: 4s;
+animation-delay: 2s;
+animation-iteration-count: 100;
+}
+
+@keyframes anime{
+0% {background: red; left: 0px; top: 0px;} 
+25% {background: yellow; left: 300px; top: 0px;}  
+50% {background: blue; left: 300px; top: 300px;} 
+75% {background: green; left: 0px; top: 300px;} 
+100% {background: red; left: 0px; top: 0px;} 
+}
+
+
+
+
+
