@@ -1,0 +1,33 @@
+body{
+	background: skyblue;
+}
+#sweet{
+	position: relative;
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: 300;
+}
+@keyframes anime{
+	0% {left: 0px; top: 0px;}
+	25% {left: 50px; top: 0px;}
+	50% {left: 50px; top: 50px;}
+	75% {left: 0px; top: 50px;}
+	100% {left: 0px; top: 0px;}
+}
+#author:hover{
+	background: black;
+	color: skyblue;
+	border: 3px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+a:hover{
+	color: darkred;
+}
+#table{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
